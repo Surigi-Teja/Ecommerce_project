@@ -1,0 +1,73 @@
+/* General styles for navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #343a40;
+    padding: 10px 20px;
+  }
+  
+  /* Left side: Company Name */
+  .navbar-left {
+    flex: 1;
+  }
+  
+  .company-name {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  /* Center: Search Bar */
+  .navbar-center {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .search-input {
+    width: 100%;
+    max-width: 400px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Right side: Sign In and Products */
+  .navbar-right {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .navbar-right a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+  }
+  
+  .navbar-right a:hover {
+    background-color: #575757;
+  }
+  
+  .navbar-right .signin-button {
+    background-color: #575f69;
+    border-radius: 5px;
+  }
+  
+  .navbar-right .signin-button:hover {
+    background-color: #575f69;
+  }
+  
+  .navbar-right .signup-button {
+    background-color: #575f69;
+    border-radius: 5px;
+  }
+
+  .circle-logo {
+    width: 80px; 
+    height: 60px;
+    border-radius: 50%;  
+    object-fit:cover;
+  }
